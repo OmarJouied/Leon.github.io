@@ -349,6 +349,9 @@ footer a {
     color: var(--main-clr);
     font-weight: 700;
 }
+footer a:hover {
+    transform: scale(1.1);
+}
 /* footer */
 /* media */
 @media (max-width: 1199px) {
