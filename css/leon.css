@@ -348,6 +348,8 @@ footer p {
 footer a {
     color: var(--main-clr);
     font-weight: 700;
+    display: inline-block;
+    transition: var(--main-trans);
 }
 footer a:hover {
     transform: scale(1.1);
