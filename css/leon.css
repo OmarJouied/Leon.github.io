@@ -378,6 +378,7 @@ footer a:hover {
     }
     .features .item {
         margin: 1rem 0 0;
+        width: 45%;
     }
     .features i,
     .features h3 {
@@ -399,6 +400,7 @@ footer a:hover {
     .portfolio .item {
         margin-top: var(--main-padding-r);
         margin-bottom: 0;
+        max-width: 100%;
     }
     .info-l {
         margin: 0;
@@ -419,6 +421,9 @@ footer a:hover {
         font-size: 1.5rem;
         letter-spacing: -.1rem;
     }
+    .contact a {
+        font-size: 1.3rem;
+    }
     .contact i {
         padding: .15rem;
     }
@@ -428,6 +433,15 @@ footer a:hover {
     .img-l,
     .img {
         display: none;
+    }
+}
+@media (max-width: 575px) {
+    :root {
+        --main-padding-t: .5rem;
+        --main-padding-r: 1rem;
+    }
+    .contact a {
+        font-size: 1.3rem;
     }
 }
 /* media */
