@@ -440,6 +440,9 @@ footer a:hover {
         --main-padding-t: .5rem;
         --main-padding-r: 1rem;
     }
+    .container {
+        justify-content: center;
+    }
     .contact a {
         font-size: 1.3rem;
     }
